@@ -1,0 +1,22 @@
+{
+  "name": "sulky-optimizer-ractive",
+  "version": "1.0.0",
+  "description": "a ractive optimizer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shingle/sulky-optimizer-ractive.git"
+  },
+  "author": "YuHui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shingle/sulky-optimizer-ractive/issues"
+  },
+  "homepage": "https://github.com/shingle/sulky-optimizer-ractive",
+  "dependencies": {
+    "ractive": "^0.7.3"
+  }
+}

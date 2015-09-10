@@ -7,19 +7,10 @@
 
 'use strict';
 
-/*
- fis.config.merge({
- modules: {
- parser: {
- tpl: 'ractive' // tpl 后缀使用sulky-parser-ractive 来处理
- }
- }
- });*/
-
 var Ractive = require('ractive');
 
-module.exports = function (content) {
-
-    return Ractive.parse(content);
+module.exports = function(content, file, conf) {
+	var rst = Ractive.parse(content);
+	return JSON.stringify(rst, null, 2)
 
 };
